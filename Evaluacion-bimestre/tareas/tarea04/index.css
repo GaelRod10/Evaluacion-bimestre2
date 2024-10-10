@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.square, .triangle {
+  position: absolute;
+  animation: move 5s linear infinite;
+}
+
+.square {
+  background-color: transparent;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid;
+}
+//*@keyframes move {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(200px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}*//

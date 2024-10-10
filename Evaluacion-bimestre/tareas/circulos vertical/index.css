@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  width: 60px;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 5px 0; 
+}
